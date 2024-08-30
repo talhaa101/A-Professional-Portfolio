@@ -158,3 +158,35 @@ nav ul li a {
     gap: 50px;
     margin-right: 50px;
 }
+
+.about-me-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.about-me-pic-section img {
+    width: 550px;
+}
+
+.about-me-content-section {
+    width: 550px;
+    color: white ;
+
+}
+
+.button-section {
+    margin: 20px 0px;
+}
+
+.design-btn {
+    padding: 13px;
+    border-radius: 25px;
+    background-color: #bac964;
+}
+
+.ct-header-text {
+    color: white;
+    margin-left: 600px;
+}
