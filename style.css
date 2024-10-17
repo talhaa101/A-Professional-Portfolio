@@ -132,12 +132,13 @@ nav ul li a {
     background: #333;
     border: 4px solid transparent;
     border-radius: 7px;
+    color: aliceblue;
 }
 
-.edu-exp-heading h1{
-    display:inline;
+.edu-exp-heading h1 {
+    display: inline;
     padding-left: 340px;
-  
+
 }
 
 
@@ -145,7 +146,7 @@ nav ul li a {
     margin: 50px;
     gap: 50px;
 }
-    
+
 
 .eight-edu-exp h2 {
     color: #bac964;
@@ -172,7 +173,7 @@ nav ul li a {
 
 .about-me-content-section {
     width: 550px;
-    color: white ;
+    color: white;
 
 }
 
@@ -184,9 +185,234 @@ nav ul li a {
     padding: 13px;
     border-radius: 25px;
     background-color: #bac964;
+    margin-top: 130px;
 }
 
 .ct-header-text {
     color: white;
     margin-left: 600px;
 }
+
+.Client-tesimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-right: 50px;
+}
+
+
+.testimonial-section {
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.testimonial-section h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 35px;
+    margin-left: 540px;
+}
+
+.testimonial-section h2 span {
+    font-weight: bold;
+    color: #f0c040;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    gap: 60px;
+    margin-left: 100px;
+    width: 1250px;
+}
+
+.testimonial {
+    background-color: #3e3e3e;
+    border-radius: 8px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    grid-row: span 2;
+}
+
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+    color: #eee;
+}
+
+.testimonial-content span {
+    font-size: 12px;
+    color: #bbb;
+}
+
+
+
+.services-section {
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.services-section h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.services-section h2 span {
+    font-weight: bold;
+    color: #f0c040;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #3e3e3e;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.icon {
+    background-color: #a8c545;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.service-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    color: #a8c545;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+
+
+.card-content h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.card-content h1 span {
+    color: #5f87ff;
+}
+
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 500px;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #f4f2f2;
+    margin-bottom: 20px;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.meta .date {
+    font-style: italic;
+}
+
+.meta .comments {
+    display: flex;
+    align-items: center;
+}
+
+.meta .comments::before {
+    content: '\f086'; /* Font Awesome comment icon */
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+.blog-on {
+    margin-left: 645px;
+    color: white;
+    margin-top: 150px;
+}
+
+
+
